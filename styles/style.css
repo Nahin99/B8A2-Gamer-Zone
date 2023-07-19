@@ -56,7 +56,7 @@ nav{
 } /*header section ends*/
 /*main section start*/
 /*1st banner starts*/
-.intro h1, .gamer/*banner2 er class*/{
+.intro h1, .gamer/*banner2 er class*/, .funny/*banner3 er class*/{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -81,13 +81,13 @@ nav{
     line-height: normal;
 }
 .prilli, .secondary, .prilli2/*banner2 er button*/{
-padding: 21px 40px;
-align-items: flex-start;
-background-color: #FF42A5;
-color: #FFF;
-border-radius: 45px;
-border: none;
-margin-right: 15px;
+    padding: 21px 40px;
+    align-items: flex-start;
+    background-color: #FF42A5;
+    color: #FFF;
+    border-radius: 45px;
+    border: none;
+    margin-right: 15px;
 }
 .secondary{
     background: #4EC5F7;
@@ -138,3 +138,40 @@ margin-left: 355px;
     font-weight: 700;
     line-height: 45px;
 } /*banner 2 ends*/
+/*banner 3 starts*/
+.intro2{
+    text-align: center;
+    padding-bottom: 25px;
+}
+.online{
+    color: #0B0223;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.funny{
+    font-size: 48px;
+}
+.sm-des{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.cards{
+    display: flex;
+   
+}
+
+.cards img{
+    height: 80%;
+    width: 80%;
+    transition: transform 1.5s;
+}
+.cards img:hover{
+    opacity: 0.8;
+    transform:scale(1.2);
+} /*banner 3 ends*/
