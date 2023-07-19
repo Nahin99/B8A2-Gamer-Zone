@@ -56,7 +56,7 @@ nav{
 } /*header section ends*/
 /*main section start*/
 /*1st banner starts*/
-.intro h1, .gamer/*banner2 er class*/, .funny/*banner3 er class*/{
+.intro h1, .gamer/*banner2 er class*/, .funny/*banner3 er class*/, .play2{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -167,11 +167,96 @@ margin-left: 355px;
 }
 
 .cards img{
-    height: 80%;
-    width: 80%;
+    height: 90%;
+    width: 90%;
     transition: transform 1.5s;
 }
 .cards img:hover{
     opacity: 0.8;
     transform:scale(1.2);
 } /*banner 3 ends*/
+/*banner 4 starts*/
+.play, .play2{
+    text-align: right;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+}
+.play3{
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.banner4{
+    display: flex;
+    justify-content: space-between;
+}
+.img5 img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border-radius: 10px;
+}
+.img6 img{
+    width: 150px;
+    height: 150px;
+    bottom: 80px;
+    left: -40px;
+    border-radius: 10px;
+} /*banner 4 ends*/
+/*last stage*/
+
+.last{
+    display: flex;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.last img{
+    margin-left: 20px;
+}
+.last2{
+    display: flex;
+    margin-bottom: 20px;
+}
+.last2 img{
+    margin-left: 40px;
+}
+.x:hover{
+    border: 5px solid #0B0223;
+    border-radius: 15px;
+}
+.y:hover{
+    border: 5px solid #0B0223;
+    border-radius: 15px;
+}
+/*last stage ends*/
+/*footer start*/
+.foot{
+    width: 1900px;
+height: 600px;
+
+background: #0B0223;
+}
+.footer{
+    display: flex;
+    margin-left: 400px;
+}
+.last-logo{
+   margin-top: 66px;
+}
+ .last-des{
+    color: #FFF;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 10px;
+
+ }   
+ .last-des span{
+    color:#FF42A5 ;
+ }
