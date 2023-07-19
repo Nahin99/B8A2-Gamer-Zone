@@ -1,0 +1,22 @@
+/*Responsive for Header Section*/
+@media screen and (max-width:400px){
+    .nav-container{
+
+      
+        flex-direction: column;
+        
+        
+    }
+
+    .nav-items-container{
+
+        flex-direction: column;
+        width: 100%;
+        
+    }
+
+    .nav-items-container a,.nav-icons-container{
+        margin-top: 20px;
+    }
+
+} /*end here*/
