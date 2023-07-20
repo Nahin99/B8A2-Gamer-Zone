@@ -236,10 +236,9 @@ margin-left: 355px;
 /*last stage ends*/
 /*footer start*/
 .foot{
-    width: 1900px;
-height: 600px;
-
-background: #0B0223;
+    width: 1100px;
+    height: 500px;
+    background: #0B0223;
 }
 .footer{
     display: flex;
@@ -250,13 +249,56 @@ background: #0B0223;
 }
  .last-des{
     color: #FFF;
-font-size: 45px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-left: 10px;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 10px;
 
  }   
  .last-des span{
     color:#FF42A5 ;
  }
+ .last-nav{
+    margin-left: 170px;
+ }
+ .last-nav a{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 25px;
+}
+.last-icons{
+    text-align: center;
+    margin-top: 30px;
+}
+.last-icons i {
+    color: #FFF;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+}
+.last-nav2{
+   
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: normal;
+margin-top: 20px;
+}
+.last-nav2 a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    margin-right: 20px;
+}
+.lastP{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+}
+/*Happy Ending*/
