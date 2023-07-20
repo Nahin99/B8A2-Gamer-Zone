@@ -15,10 +15,41 @@
         
     }
 
-    .nav-items-container a,.nav-icons-container{
+    .nav-items-container a,.nav-icons-container, .last-logo{
         margin-top: 20px;
     }
+.logo-container{
+    flex-direction: column;
+    width:100%
+}
+nav {
+    flex-direction: column;
+    width: 100%;
+}
+.banner, .banner2, .banner4, .foot, .footer, .last-des, .last-icons, .last-nav2{
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.last-logo img , .last-des{
+    flex-direction: column;
+    margin-left: -250px;
+}
+.last , .last2{
+    align-items: center;
+    flex-direction: column;
+    width: 100%; 
+}
+.cards{
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.play{
+    flex-direction: column;
+    width: 100%;  
+}
 
-} /*end here*/
-/*responsive for 1st banner*/
+} 
 
+/*end here*/
